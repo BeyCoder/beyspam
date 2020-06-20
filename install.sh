@@ -30,11 +30,11 @@ else
 		else
 			apt install python3 python3-pip dos2unix
 			pip3 install requests colorama proxyscrape
-			cp ~/spymer/spammer.py /usr/bin/spymer
-			dos2unix /usr/bin/spymer
-			chmod 777 /usr/bin/spymer
-			chmod -R 777 ~/spymer
-			spymer
+			cp ~/beyspam/spammer.py /usr/bin/beyspam
+			dos2unix /usr/bin/beyspam
+			chmod 777 /usr/bin/beyspam
+			chmod -R 777 ~/beyspam
+			beyspam
 		fi
 	else
 		if [ $numb = "3" ] 
