@@ -15,11 +15,11 @@ then
 	pkg install python
 	pkg install dos2unix
 	pip install requests colorama proxyscrape
-	cp ~/spymer/spammer.py /data/data/com.termux/files/usr/bin/spymer
-	dos2unix /data/data/com.termux/files/usr/bin/spymer
-	chmod -R 777 ~/spymer
-	chmod 777 /data/data/com.termux/files/usr/bin/spymer
-	spymer
+	cp ~/beyspam/spammer.py /data/data/com.termux/files/usr/bin/beyspam
+	dos2unix /data/data/com.termux/files/usr/bin/beyspam
+	chmod -R 777 ~/beyspam
+	chmod 777 /data/data/com.termux/files/usr/bin/beyspam
+	beyspam
 else
 	if [ $numb = "2" ]
 	then
